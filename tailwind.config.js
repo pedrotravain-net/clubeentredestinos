@@ -8,20 +8,20 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // Paleta Entre Destinos — inspirada em AstroJourney: creme parchment + dourado champanhe + escuro profundo
-        cream:      '#F8F2E8', // fundo principal — creme parchment quente
-        linen:      '#F1E8D8', // fundo secundário claro
-        sand:       '#E8D8C0', // seções alternadas — areia dourada
-        terracota:  '#C19558', // cor primária — dourado champanhe quente (CTAs, destaques)
-        blush:      '#D4B078', // tom mais claro do dourado
-        mauve:      '#9B7080', // rosa empoeirado
-        plum:       '#6B3355', // ameixa escura
-        wine:       '#4E2038', // vinho profundo
-        coffee:     '#1C1210', // texto / fundo escuro — espresso profundo
-        espresso:   '#3A2218', // texto secundário escuro
-        mocha:      '#7A5238', // texto terciário — marrom médio
-        sage:       '#5A7860', // verde oliva
-        petrol:     '#3A6870', // azul petróleo
+        // Paleta Entre Destinos — contraste aumentado, menos bege
+        cream:      '#FAF6EF', // fundo principal — branco quente
+        linen:      '#F2E8D6', // fundo secundário claro
+        sand:       '#E4D2B8', // seções alternadas
+        terracota:  '#9C6520', // âmbar escuro — contraste forte nos CTAs
+        blush:      '#C08840', // âmbar médio / hover
+        mauve:      '#7A4860', // rosa velho escuro
+        plum:       '#58224A', // ameixa intensa
+        wine:       '#3C1430', // vinho profundo
+        coffee:     '#0E0905', // quase preto quente — máximo contraste
+        espresso:   '#261408', // texto escuro
+        mocha:      '#5C3418', // texto terciário
+        sage:       '#3E5E44', // verde oliva escuro
+        petrol:     '#1E4850', // azul petróleo escuro
       },
       fontFamily: {
         serif: ['var(--font-playfair)', 'Georgia', 'serif'],
