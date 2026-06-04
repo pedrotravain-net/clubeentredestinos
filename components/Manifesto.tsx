@@ -4,8 +4,8 @@ export default function Manifesto() {
       id="manifesto"
       className="relative py-28 md:py-44 overflow-hidden"
       style={{
-        // Verde floresta profundo — evoca natureza, viagem, pertencimento
-        background: 'linear-gradient(150deg, #1A2C20 0%, #243828 50%, #1E2E28 100%)',
+        // Ameixa aquecida — feminino, acolhedor, combina com o dourado e creme da identidade
+        background: 'linear-gradient(150deg, #5C2A3E 0%, #7A3A52 50%, #5C2E46 100%)',
       }}
     >
       {/* Luz atmosférica suave */}
