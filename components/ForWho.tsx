@@ -1,8 +1,8 @@
 const items = [
-  'Mulheres que amam viajar ou sonham viajar mais.',
-  'Quem sente falta de conhecer mulheres com interesses parecidos.',
-  'Quem quer viver experiências novas na rotina.',
-  'Quem gosta de conversar sobre viagens, vida, coragem, liberdade e descobertas.',
+  'Amam viajar ou sonham viajar mais.',
+  'Sentem falta de conhecer mulheres com interesses parecidos.',
+  'Querem viver experiências novas na rotina.',
+  'Gostam de conversar sobre viagens, vida, coragem, liberdade e descobertas.',
   'Quem quer chegar sozinha, mas sair com novas histórias.',
 ]
 
