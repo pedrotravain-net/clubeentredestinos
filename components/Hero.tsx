@@ -70,7 +70,7 @@ export default function Hero() {
           className="font-sans text-cream/55 leading-relaxed mb-14 font-light mx-auto"
           style={{ fontSize: 'clamp(0.9rem, 1.8vw, 1.1rem)', maxWidth: '32rem' }}
         >
-          Entre uma viagem e outra, a vida também pode ser destino.
+          Entre uma viagem e outra,<br className="md:hidden" /> a vida também pode ser destino.
         </p>
 
         <div className="flex justify-center">

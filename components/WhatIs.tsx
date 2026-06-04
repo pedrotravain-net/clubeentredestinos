@@ -22,7 +22,8 @@ const pillars = [
   {
     symbol: '◌',
     label: 'Liberdade',
-    desc: 'Para ser quem você é, para chegar sozinha, para partir diferente.',
+    // quebra de linha após "sozinha," para melhor leitura no mobile
+    desc: null,
   },
 ]
 
@@ -43,7 +44,7 @@ export default function WhatIs() {
             </h2>
             <div className="w-10 h-px bg-terracota mb-10" />
             <p className="font-sans text-lg text-espresso leading-relaxed mb-6">
-              Um clube de experiências para mulheres que amam viajar e querem viver, no cotidiano, a mesma sensação de descoberta, liberdade e conexão que uma viagem proporciona.
+              Um clube de experiências para mulheres que amam viajar e querem viver,<br className="md:hidden" /> no cotidiano, a mesma sensação de descoberta, liberdade e conexão que uma viagem proporciona.
             </p>
             <p className="font-sans text-base text-mocha leading-relaxed font-light">
               Cada encontro é uma pequena viagem simbólica — com tema, experiência sensorial, conversa profunda e uma memória para levar.
@@ -66,7 +67,12 @@ export default function WhatIs() {
                   {p.label}
                 </h3>
                 <p className="font-sans text-sm text-mocha leading-relaxed font-light">
-                  {p.desc}
+                  {p.desc ?? (
+                    <>
+                      Para ser quem você é, para chegar sozinha,<br />
+                      para partir diferente.
+                    </>
+                  )}
                 </p>
               </div>
             ))}
