@@ -9,8 +9,8 @@ export default function AboutVanessa() {
           {/* Foto da Vanessa — Islândia */}
           <div className="relative aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl">
             <Image
-              src="/images/vanessa-islandia.jpg"
-              alt="Vanessa na Islândia, fundadora do Entre Destinos"
+              src="/images/vanessa-egito.jpg"
+              alt="Vanessa no Egito, fundadora do Entre Destinos"
               fill
               className="object-cover object-top"
             />
