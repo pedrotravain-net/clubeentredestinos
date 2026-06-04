@@ -1,42 +1,45 @@
 import Image from 'next/image'
 
-// Dados dos encontros — editar aqui para atualizar os cards
 const events = [
   {
     title: 'Yoga com Vinho',
     theme: 'A Pausa como Destino',
-    location: null,
+    date: '21 de junho',
+    time: '8h30 às 10h30',
+    location: 'My Yoga House',
     desc: 'Uma experiência para respirar, brindar e lembrar que a vida também acontece entre uma viagem e outra.',
-    tag: 'Em breve',
+    tag: 'Próximo',
     image: '/images/evento-yoga.png',
-    cardBg: 'rgba(248,242,239,1)',
   },
   {
     title: 'Café com Aquarela',
     theme: 'Desenhando a Viagem dos Sonhos',
-    location: 'Cafeteria Kanto de Minas',
-    desc: 'Uma experiência com café, aquarela e uma conversa sobre os primeiros passos para começar a planejar a viagem dos sonhos.',
-    tag: 'Próximo',
+    date: '18 de julho',
+    time: '14h às 17h',
+    location: 'Kanto de Minas',
+    desc: 'Uma experiência com café, aquarela e uma conversa sobre os primeiros passos para planejar a viagem dos sonhos.',
+    tag: 'Em breve',
     image: '/images/evento-aquarela.png',
-    cardBg: 'rgba(248,242,239,1)',
   },
   {
     title: 'Piquenique Literário',
     theme: 'Medo e Coragem',
+    date: '23 de agosto',
+    time: '8h30 às 10h30',
     location: 'Parque das Nações Indígenas',
     desc: 'Um piquenique com discussão do livro da Tamara Klink sobre medo, coragem, autonomia e travessias.',
     tag: 'Em breve',
     image: '/images/evento-livro.png',
-    cardBg: 'rgba(248,242,239,1)',
   },
   {
     title: 'Pintura em Taça',
     theme: 'Entre a Mulher que Parte e a Mulher que Volta',
-    location: null,
+    date: '26 de setembro',
+    time: '14h às 17h',
+    location: 'Livraria Fradelli',
     desc: 'Uma experiência para pintar, brindar e conversar sobre como as viagens transformam nossas versões.',
     tag: 'Em breve',
     image: '/images/evento-pintura.png',
-    cardBg: 'rgba(248,242,239,1)',
   },
 ]
 
@@ -56,14 +59,13 @@ export default function Events() {
           <div className="w-10 h-px bg-terracota" />
         </div>
 
-        {/* Grid de cards */}
         <div className="grid sm:grid-cols-2 gap-6">
           {events.map((event, i) => (
             <div
               key={i}
               className="rounded-3xl overflow-hidden group hover:shadow-2xl transition-all duration-500 hover:-translate-y-1.5 bg-cream"
             >
-              {/* Imagem do evento */}
+              {/* Imagem */}
               <div className="relative w-full h-52 overflow-hidden">
                 <Image
                   src={event.image}
@@ -71,7 +73,6 @@ export default function Events() {
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-700"
                 />
-                {/* Badge de status sobre a imagem */}
                 <div className="absolute bottom-4 left-4 z-10">
                   <span
                     className={`text-xs font-sans tracking-widest uppercase px-3 py-1.5 rounded-full ${
@@ -85,34 +86,39 @@ export default function Events() {
                 </div>
               </div>
 
-              {/* Conteúdo do card */}
+              {/* Conteúdo */}
               <div className="p-7">
                 <p className="font-sans text-xs tracking-widest uppercase text-terracota mb-2">
                   {event.theme}
                 </p>
-                <h3 className="font-serif text-2xl text-coffee mb-1 group-hover:text-terracota transition-colors duration-300">
+                <h3 className="font-serif text-2xl text-coffee mb-3 group-hover:text-terracota transition-colors duration-300">
                   {event.title}
                 </h3>
-                {event.location && (
-                  <p className="font-sans text-sm text-mocha mb-4 flex items-center gap-1.5">
-                    <svg className="w-3.5 h-3.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
-                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+
+                {/* Data, hora e local */}
+                <div className="space-y-1.5 mb-4">
+                  <p className="font-sans text-sm text-espresso flex items-center gap-2">
+                    <svg className="w-3.5 h-3.5 flex-shrink-0 text-terracota" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                    </svg>
+                    {event.date} · {event.time}
+                  </p>
+                  <p className="font-sans text-sm text-mocha flex items-center gap-2">
+                    <svg className="w-3.5 h-3.5 flex-shrink-0 text-terracota" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                     </svg>
                     {event.location}
                   </p>
-                )}
-                {!event.location && <div className="mb-4" />}
+                </div>
+
                 <p className="font-sans text-sm text-mocha leading-relaxed mb-6 font-light">{event.desc}</p>
 
-                {/*
-                  LINK DE INSCRIÇÃO:
-                  Substituir href="#inscricao" pelo link do Sympla quando o evento for criado.
-                  Ex: href="https://sympla.com.br/evento/yoga-com-vinho"
-                */}
+                {/* LINK: substituir pelo Sympla quando o evento for criado */}
                 <a
-                  href="#inscricao"
+                  href={`https://wa.me/5567981862300?text=${encodeURIComponent(`Olá! Quero participar do encontro "${event.title}" — ${event.date}. Pode me passar mais informações?`)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 font-sans text-sm text-terracota hover:text-espresso transition-colors tracking-wide group/link font-medium"
                 >
                   <span>Quero participar</span>

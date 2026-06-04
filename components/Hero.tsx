@@ -79,19 +79,13 @@ export default function Hero() {
           Entre uma viagem e outra, a vida também pode ser destino.
         </p>
 
-        {/* CTAs */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <a
-            href="#inscricao"
-            className="bg-terracota text-cream font-sans text-xs tracking-[0.22em] uppercase px-9 py-4 rounded-full hover:bg-blush transition-all duration-300 hover:-translate-y-0.5 hover:shadow-2xl"
-          >
-            Quero participar do próximo encontro
-          </a>
+        {/* CTA único — vai direto para os encontros */}
+        <div className="flex justify-center">
           <a
             href="#encontros"
-            className="border border-cream/40 text-cream font-sans text-xs tracking-[0.22em] uppercase px-9 py-4 rounded-full hover:border-blush hover:text-blush transition-all duration-300 hover:-translate-y-0.5"
+            className="bg-terracota text-cream font-sans text-xs tracking-[0.22em] uppercase px-10 py-4 rounded-full hover:bg-blush transition-all duration-300 hover:-translate-y-0.5 hover:shadow-2xl"
           >
-            Conhecer os encontros
+            Quero participar do próximo encontro
           </a>
         </div>
       </div>

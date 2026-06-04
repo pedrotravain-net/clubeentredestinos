@@ -17,11 +17,10 @@ export default function Footer() {
           {/* Links de navegação */}
           <nav className="flex flex-wrap justify-center md:justify-end gap-x-8 gap-y-3">
             {[
-              { href: '#o-que-e',     label: 'O Clube'      },
-              { href: '#encontros',   label: 'Encontros'    },
-              { href: '#vanessa',     label: 'A Vanessa'    },
-              { href: '#inscricao',   label: 'Participar'   },
-              { href: '#faq',         label: 'Dúvidas'      },
+              { href: '#encontros', label: 'Encontros'  },
+              { href: '#o-que-e',   label: 'O Clube'    },
+              { href: '#vanessa',   label: 'A Vanessa'  },
+              { href: '#faq',       label: 'Dúvidas'    },
             ].map((l) => (
               <a
                 key={l.href}
@@ -39,14 +38,13 @@ export default function Footer() {
             © {year} Entre Destinos. Todos os direitos reservados.
           </p>
 
-          {/* Links sociais — SUBSTITUIR pelos perfis reais */}
           <div className="flex items-center gap-6">
-            {/* Instagram */}
+            {/* Instagram — @vahviajar */}
             <a
-              href="https://instagram.com/entredestinos"
+              href="https://instagram.com/vahviajar"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Instagram do Entre Destinos"
+              aria-label="Instagram @vahviajar"
               className="text-cream/40 hover:text-terracota transition-colors"
             >
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -54,7 +52,7 @@ export default function Footer() {
               </svg>
             </a>
 
-            {/* WhatsApp — SUBSTITUIR pelo número real */}
+            {/* WhatsApp */}
             <a
               href="https://wa.me/5567981862300"
               target="_blank"
