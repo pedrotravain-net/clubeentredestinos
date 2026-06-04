@@ -1,9 +1,9 @@
 const items = [
-  'Para mulheres que amam viajar ou sonham viajar mais.',
-  'Para quem sente falta de conhecer mulheres com interesses parecidos.',
-  'Para quem quer viver experiências novas na rotina.',
-  'Para quem gosta de conversar sobre viagens, vida, coragem, liberdade e descobertas.',
-  'Para quem quer chegar sozinha, mas sair com novas histórias.',
+  'Mulheres que amam viajar ou sonham viajar mais.',
+  'Quem sente falta de conhecer mulheres com interesses parecidos.',
+  'Quem quer viver experiências novas na rotina.',
+  'Quem gosta de conversar sobre viagens, vida, coragem, liberdade e descobertas.',
+  'Quem quer chegar sozinha, mas sair com novas histórias.',
 ]
 
 export default function ForWho() {
