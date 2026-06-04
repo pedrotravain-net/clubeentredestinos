@@ -33,7 +33,7 @@ const events = [
   },
   {
     title: 'Pintura em Taça',
-    theme: 'Entre a Mulher que Parte e a Mulher que Volta',
+    theme: 'Um Brinde às Versões que a Viagem Revela',
     date: '26 de setembro',
     time: '14h às 17h',
     location: 'Livraria Fradelli',
