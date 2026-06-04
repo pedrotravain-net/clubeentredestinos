@@ -9,10 +9,11 @@ export default function Hero() {
       {/* ── FOTO DE FUNDO — Vanessa na Islândia ── */}
       <div className="absolute inset-0">
         <Image
-          src="/images/vanessa-islandia.jpg"
-          alt="Vanessa viajando na Islândia"
+          src="/images/hero-bg.png"
+          alt="Vanessa viajando"
           fill
-          className="object-cover object-center"
+          className="object-cover"
+          style={{ objectPosition: '25% center' }}
           priority
         />
         {/* Overlay escuro gradiente para legibilidade e elegância */}
