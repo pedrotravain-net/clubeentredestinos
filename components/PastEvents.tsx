@@ -3,10 +3,9 @@ import { useState, useRef } from 'react'
 import Image from 'next/image'
 
 const photos = [
-  { src: '/images/yoga-grupo.jpg',    alt: 'Grupo de mulheres no Yoga com Vinho — Entre Destinos' },
-  { src: '/images/yoga-pose.jpg',     alt: 'Yoga com equilíbrio e vinho — Entre Destinos' },
-  { src: '/images/yoga-meditacao.jpg',alt: 'Momento de meditação no encontro — Entre Destinos' },
-  { src: '/images/yoga-mesa.jpg',     alt: 'Mesa de petiscos do encontro — Entre Destinos' },
+  { src: '/images/yoga-grupo.jpg', alt: 'Grupo de mulheres no Yoga com Vinho — Entre Destinos' },
+  { src: '/images/yoga-pose.jpg',  alt: 'Yoga com equilíbrio e vinho — Entre Destinos' },
+  { src: '/images/yoga-mesa.jpg',  alt: 'Mesa de petiscos do encontro — Entre Destinos' },
 ]
 
 export default function PastEvents() {
