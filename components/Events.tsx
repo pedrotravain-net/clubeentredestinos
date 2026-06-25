@@ -2,23 +2,13 @@ import Image from 'next/image'
 
 const events = [
   {
-    title: 'Yoga com Vinho',
-    theme: 'A Pausa como Destino',
-    date: '21 de junho',
-    time: '8h30 às 10h30',
-    location: 'My Yoga House',
-    desc: 'Uma experiência para respirar, brindar e lembrar que a vida também acontece entre uma viagem e outra.',
-    tag: 'Próximo',
-    image: '/images/evento-yoga.png',
-  },
-  {
     title: 'Café com Aquarela',
     theme: 'Desenhando a Viagem dos Sonhos',
     date: '18 de julho',
     time: '14h às 17h',
     location: 'Kanto de Minas',
     desc: 'Uma experiência com café, aquarela e uma conversa sobre os primeiros passos para planejar a viagem dos sonhos.',
-    tag: 'Em breve',
+    tag: 'Próximo',
     image: '/images/evento-aquarela.png',
   },
   {
