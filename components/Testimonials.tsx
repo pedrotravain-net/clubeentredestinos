@@ -21,21 +21,15 @@ const testimonials = [
     source: 'Instagram',
   },
   {
-    quote: 'Que sensacional! Quando você publicou eu achei demais a ideia. Queria ter participado, mas a data não dava. Genial mesmo! Já estou vendo as datas das próximas experiências.',
-    name: 'Participante',
-    handle: 'via Instagram',
-    source: 'Instagram',
-  },
-  {
     quote: 'Foi uma delícia! Já querendo o próximo!!',
     name: 'Inara Piva',
     handle: '@inarapiva',
     source: 'Instagram',
   },
   {
-    quote: 'Um domingo diferente... momento para reconectar, viver experiências. Obrigada pela manhã inesquecível, @vahviajar.',
-    name: 'Participante',
-    handle: 'Story do Instagram',
+    quote: 'Um domingo diferente... momento para reconectar, viver experiências. Obrigada pela manhã inesquecível.',
+    name: 'Daniela Bomfim',
+    handle: '@danielarbomfim',
     source: 'Instagram',
   },
 ]
@@ -117,8 +111,8 @@ export default function Testimonials() {
         <div className="grid md:grid-cols-3 gap-5">
           {[
             { quote: 'Que manhã incrível. Gratidão.', name: 'Cleide Monteiro', via: 'WhatsApp' },
-            { quote: 'Ansiosa já pro próximo!', name: 'Participante', via: 'WhatsApp' },
-            { quote: 'A proposta de fazer coisas diferentes é muito massa!', name: 'Participante', via: 'WhatsApp' },
+            { quote: 'Ansiosa já pro próximo!', name: 'Nariema Felini', via: 'WhatsApp' },
+            { quote: 'A proposta de fazer coisas diferentes é muito massa!', name: 'Caroline Cruz', via: 'WhatsApp' },
           ].map((item, i) => (
             <div
               key={i}

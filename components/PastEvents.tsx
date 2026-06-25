@@ -13,7 +13,7 @@ export default function PastEvents() {
         {/* Cabeçalho */}
         <div className="text-center mb-20">
           <p className="font-sans text-xs tracking-[0.35em] uppercase text-blush/70 mb-5">
-            Primeiro encontro
+            Encontros anteriores
           </p>
           <h2 className="font-serif text-4xl md:text-5xl text-cream leading-tight mb-4">
             Yoga com Vinho —<br />
