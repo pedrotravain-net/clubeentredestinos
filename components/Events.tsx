@@ -14,7 +14,7 @@ const events = [
   {
     title: 'Piquenique Literário',
     theme: 'Medo e Coragem',
-    date: '23 de agosto',
+    date: '30 de agosto',
     time: '8h30 às 10h30',
     location: 'Parque das Nações Indígenas',
     desc: 'Um piquenique com discussão do livro da Tamara Klink sobre medo, coragem, autonomia e travessias.',
