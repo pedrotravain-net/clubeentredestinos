@@ -5,6 +5,7 @@ const events = [
     title: 'Café com Aquarela',
     theme: 'Desenhando a Viagem dos Sonhos',
     date: '18 de julho',
+    weekday: 'Sábado',
     time: '14h às 17h',
     location: 'Kanto de Minas',
     desc: 'Uma experiência com café, aquarela e uma conversa sobre os primeiros passos para planejar a viagem dos sonhos.',
@@ -15,6 +16,7 @@ const events = [
     title: 'Piquenique Literário',
     theme: 'Medo e Coragem',
     date: '30 de agosto',
+    weekday: 'Domingo',
     time: '8h30 às 10h30',
     location: 'Parque das Nações Indígenas',
     desc: 'Um piquenique com discussão do livro da Tamara Klink sobre medo, coragem, autonomia e travessias.',
@@ -25,6 +27,7 @@ const events = [
     title: 'Pintura em Taça',
     theme: 'Um Brinde às Versões que a Viagem Revela',
     date: '26 de setembro',
+    weekday: 'Sábado',
     time: '14h às 17h',
     location: 'Livraria Fradelli',
     desc: 'Uma experiência para pintar, brindar e conversar sobre como as viagens transformam nossas versões.',
@@ -87,12 +90,15 @@ export default function Events() {
 
                 {/* Data, hora e local */}
                 <div className="space-y-1.5 mb-4">
-                  <p className="font-sans text-sm text-espresso flex items-center gap-2">
-                    <svg className="w-3.5 h-3.5 flex-shrink-0 text-terracota" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <div className="flex items-start gap-2">
+                    <svg className="w-3.5 h-3.5 flex-shrink-0 text-terracota mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                     </svg>
-                    {event.date} · {event.time}
-                  </p>
+                    <div>
+                      <p className="font-sans text-sm text-espresso">{event.date} · {event.time}</p>
+                      <p className="font-sans text-xs text-terracota font-medium mt-0.5">{event.weekday}</p>
+                    </div>
+                  </div>
                   <p className="font-sans text-sm text-mocha flex items-center gap-2">
                     <svg className="w-3.5 h-3.5 flex-shrink-0 text-terracota" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
