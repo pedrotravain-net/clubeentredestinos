@@ -26,10 +26,10 @@ const events = [
   {
     title: 'Pintura em Taça',
     theme: 'Um Brinde às Versões que a Viagem Revela',
-    date: '26 de setembro',
+    date: '19 de setembro',
     weekday: 'Sábado',
     time: '14h às 17h',
-    location: 'Livraria Fradelli',
+    location: 'Local a confirmar',
     desc: 'Uma experiência para pintar, brindar e conversar sobre como as viagens transformam nossas versões.',
     tag: 'Em breve',
     image: '/images/evento-pintura.png',
