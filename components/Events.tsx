@@ -1,6 +1,19 @@
 import Image from 'next/image'
 
-const events = [
+type Event = {
+  title: string
+  theme: string
+  date: string
+  weekday: string
+  time: string
+  location: string
+  desc: string
+  tag: string
+  image: string
+  objectPosition?: string
+}
+
+const events: Event[] = [
   {
     title: 'Café com Aquarela',
     theme: 'Desenhando a Viagem dos Sonhos',
