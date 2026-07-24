@@ -15,7 +15,7 @@ const events = [
   {
     title: 'Piquenique Literário',
     theme: 'Medo e Coragem',
-    date: '30 de agosto',
+    date: '23 ou 30 de agosto',
     weekday: 'Domingo',
     time: '8h30 às 10h30',
     location: 'Parque das Nações Indígenas',
@@ -24,7 +24,7 @@ const events = [
     image: '/images/evento-livro.png',
   },
   {
-    title: 'Pintura em Taça',
+    title: 'Pintura em Taça com Degustação de Bombons',
     theme: 'Um Brinde às Versões que a Viagem Revela',
     date: '19 de setembro',
     weekday: 'Sábado',
@@ -33,6 +33,28 @@ const events = [
     desc: 'Uma experiência para pintar, brindar e conversar sobre como as viagens transformam nossas versões.',
     tag: 'Em breve',
     image: '/images/evento-pintura.png',
+  },
+  {
+    title: 'Jantar às Cegas',
+    theme: 'Quando os Sentidos Viram Destino',
+    date: '16 de outubro',
+    weekday: 'Sexta-feira',
+    time: '19h às 22h',
+    location: 'Local a confirmar',
+    desc: 'Uma noite em que os olhos fecham e tudo o mais se abre: o paladar, a conversa, a presença. Uma viagem sem sair do lugar.',
+    tag: 'Em breve',
+    image: '/images/evento-yoga.png',
+  },
+  {
+    title: 'Bordado em Fotos',
+    theme: 'Bordar é Guardar — Memórias que a Linha Tece',
+    date: '28 de novembro',
+    weekday: 'Sábado',
+    time: '14h às 17h',
+    location: 'Fava Fava',
+    desc: 'Traga uma foto de viagem e aprenda a bordá-la à mão. Porque algumas memórias merecem ser sentidas duas vezes — uma quando vividas, outra quando tecidas.',
+    tag: 'Em breve',
+    image: '/images/evento-aquarela.png',
   },
 ]
 
