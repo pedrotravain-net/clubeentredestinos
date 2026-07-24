@@ -47,15 +47,14 @@ const events = [
   },
   {
     title: 'Bordado e Cookies',
-    theme: 'Bordar é Guardar — Memórias que a Linha Tece',
+    theme: 'Memórias que vivemos, memórias que queremos criar.',
     date: '28 de novembro',
     weekday: 'Sábado',
     time: '14h às 17h',
     location: 'Fava Fava',
-    desc: 'Traga uma foto de viagem e aprenda a bordá-la à mão. Porque algumas memórias merecem ser sentidas duas vezes — uma quando vividas, outra quando tecidas.',
+    desc: 'Uma experiência de bordado com cookies. Teremos a opção de bordar em foto ou bordar no tecido com moldura de acrílico.',
     tag: 'Em breve',
     image: '/images/evento-bordado.png',
-    objectPosition: 'object-top',
   },
 ]
 
