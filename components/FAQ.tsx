@@ -25,7 +25,7 @@ const faqs = [
   },
   {
     q: 'Como faço para participar?',
-    a: 'Preencha o formulário acima com seus dados e o encontro de seu interesse. Você receberá as informações sobre data, local, valor e como confirmar sua presença. É simples assim.',
+    a: 'Mande uma mensagem no WhatsApp com o encontro de seu interesse. Você receberá as informações sobre data, local, valor e como confirmar sua presença. É simples assim.',
   },
 ]
 
