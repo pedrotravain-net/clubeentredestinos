@@ -43,7 +43,7 @@ const events = [
     location: 'Local a confirmar',
     desc: 'Uma noite em que os olhos fecham e tudo o mais se abre: o paladar, a conversa, a presença. Uma viagem sem sair do lugar.',
     tag: 'Em breve',
-    image: '/images/evento-yoga.png',
+    image: '/images/evento-jantar.png',
   },
   {
     title: 'Bordado e Cookies',
@@ -54,7 +54,7 @@ const events = [
     location: 'Fava Fava',
     desc: 'Traga uma foto de viagem e aprenda a bordá-la à mão. Porque algumas memórias merecem ser sentidas duas vezes — uma quando vividas, outra quando tecidas.',
     tag: 'Em breve',
-    image: '/images/evento-aquarela.png',
+    image: '/images/evento-bordado.png',
   },
 ]
 

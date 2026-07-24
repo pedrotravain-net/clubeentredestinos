@@ -18,7 +18,9 @@ const pastEvents = [
     date: '18 de julho de 2025',
     location: 'Kanto de Minas',
     photos: [
-      { src: '/images/evento-aquarela-cafe.jpg', alt: 'Grupo do Café com Aquarela' },
+      { src: '/images/aquarela-cafe-1.jpg', alt: 'Grupo do Café com Aquarela' },
+      { src: '/images/aquarela-cafe-2.jpg', alt: 'Café com Aquarela — momento de criação' },
+      { src: '/images/aquarela-cafe-3.jpg', alt: 'Café com Aquarela — obras finais' },
     ],
   },
 ]
