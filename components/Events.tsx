@@ -46,7 +46,7 @@ const events = [
     image: '/images/evento-yoga.png',
   },
   {
-    title: 'Bordado em Fotos',
+    title: 'Bordado e Cookies',
     theme: 'Bordar é Guardar — Memórias que a Linha Tece',
     date: '28 de novembro',
     weekday: 'Sábado',
