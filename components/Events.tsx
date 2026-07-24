@@ -15,17 +15,6 @@ type Event = {
 
 const events: Event[] = [
   {
-    title: 'Café com Aquarela',
-    theme: 'Desenhando a Viagem dos Sonhos',
-    date: '18 de julho',
-    weekday: 'Sábado',
-    time: '14h às 17h',
-    location: 'Kanto de Minas',
-    desc: 'Uma experiência com café, aquarela e uma conversa sobre os primeiros passos para planejar a viagem dos sonhos.',
-    tag: 'Próximo',
-    image: '/images/evento-aquarela.png',
-  },
-  {
     title: 'Piquenique Literário',
     theme: 'Medo e Coragem',
     date: '23 ou 30 de agosto',
@@ -33,7 +22,7 @@ const events: Event[] = [
     time: '8h30 às 10h30',
     location: 'Parque das Nações Indígenas',
     desc: 'Um piquenique com discussão do livro da Tamara Klink sobre medo, coragem, autonomia e travessias.',
-    tag: 'Em breve',
+    tag: 'Próximo',
     image: '/images/evento-livro.png',
   },
   {
