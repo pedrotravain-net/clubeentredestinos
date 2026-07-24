@@ -55,6 +55,7 @@ const events = [
     desc: 'Traga uma foto de viagem e aprenda a bordá-la à mão. Porque algumas memórias merecem ser sentidas duas vezes — uma quando vividas, outra quando tecidas.',
     tag: 'Em breve',
     image: '/images/evento-bordado.png',
+    objectPosition: 'object-top',
   },
 ]
 
@@ -86,7 +87,7 @@ export default function Events() {
                   src={event.image}
                   alt={event.title}
                   fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-700"
+                  className={`object-cover group-hover:scale-105 transition-transform duration-700 ${event.objectPosition ?? 'object-center'}`}
                 />
                 <div className="absolute bottom-4 left-4 z-10">
                   <span
