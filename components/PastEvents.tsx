@@ -5,7 +5,7 @@ import Image from 'next/image'
 const pastEvents = [
   {
     title: 'Yoga com Vinho',
-    date: '21 de junho de 2025',
+    date: '21 de junho de 2026',
     location: 'My Yoga House',
     photos: [
       { src: '/images/yoga-grupo.jpg',  alt: 'Grupo de mulheres no Yoga com Vinho' },
@@ -15,7 +15,7 @@ const pastEvents = [
   },
   {
     title: 'Café com Aquarela',
-    date: '18 de julho de 2025',
+    date: '18 de julho de 2026',
     location: 'Kanto de Minas',
     photos: [
       { src: '/images/aquarela-cafe-1.jpg', alt: 'Grupo do Café com Aquarela' },
@@ -129,7 +129,7 @@ export default function PastEvents() {
             <p className="font-sans text-xs tracking-[0.25em] uppercase text-cream/40">encontros</p>
           </div>
           <div>
-            <p className="font-serif text-5xl md:text-6xl text-blush font-semibold mb-2">2025</p>
+            <p className="font-serif text-5xl md:text-6xl text-blush font-semibold mb-2">2026</p>
             <p className="font-sans text-xs tracking-[0.25em] uppercase text-cream/40">temporada</p>
           </div>
           <div>
