@@ -36,6 +36,17 @@ const events: Event[] = [
     tag: 'Em breve',
     image: '/images/evento-bordado.png',
   },
+  {
+    title: 'Vela com Drink',
+    theme: 'Aromas que Guardam Memórias de Viagem',
+    date: '13 de dezembro',
+    weekday: 'Domingo',
+    time: 'Manhã',
+    location: 'Katarina',
+    desc: 'Uma manhã para criar sua própria vela aromática, brindar com um drink e conversar sobre os aromas que nos transportam para outros lugares.',
+    tag: 'Em breve',
+    image: '/images/evento-vela.webp',
+  },
 ]
 
 export default function Events() {
