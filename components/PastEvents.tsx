@@ -23,6 +23,16 @@ const pastEvents = [
       { src: '/images/aquarela-cafe-3.jpg', alt: 'Café com Aquarela — obras finais' },
     ],
   },
+  {
+    title: 'Pintura em Taça com Degustação de Bombons',
+    date: '19 de setembro de 2026',
+    location: 'Campo Grande',
+    photos: [
+      { src: '/images/taca-1.jpg', alt: 'Grupo brindando na Pintura em Taça' },
+      { src: '/images/taca-2.jpg', alt: 'Pintura em Taça — leitura e degustação de bombons' },
+      { src: '/images/taca-3.jpg', alt: 'Taça pintada à mão no encontro' },
+    ],
+  },
 ]
 
 function EventGallery({ event }: { event: typeof pastEvents[0] }) {
