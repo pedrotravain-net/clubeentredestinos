@@ -24,6 +24,16 @@ const pastEvents = [
     ],
   },
   {
+    title: 'Piquenique Literário',
+    date: '30 de agosto de 2026',
+    location: 'Parque das Nações Indígenas',
+    photos: [
+      { src: '/images/piquenique-1.jpg', alt: 'Grupo do Piquenique Literário com os livros' },
+      { src: '/images/piquenique-2.jpg', alt: 'Encontro à beira do lago no Piquenique Literário' },
+      { src: '/images/piquenique-3.jpg', alt: 'Piquenique Literário — boas-vindas Entre Destinos' },
+    ],
+  },
+  {
     title: 'Pintura em Taça com Degustação de Bombons',
     date: '19 de setembro de 2026',
     location: 'Campo Grande',
