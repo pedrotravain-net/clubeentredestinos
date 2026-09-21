@@ -47,6 +47,17 @@ const events: Event[] = [
     tag: 'Em breve',
     image: '/images/evento-vela.webp',
   },
+  {
+    title: 'Cineminha com Journaling',
+    theme: 'Grandes Planos, Boas Histórias',
+    date: '24 de janeiro',
+    weekday: 'Domingo',
+    time: 'Final da tarde',
+    location: 'Local a confirmar',
+    desc: 'Um fim de tarde de cinema, boa companhia e journaling para sonhar, planejar e registrar as próximas viagens e versões de si.',
+    tag: 'Em breve',
+    image: '/images/evento-cinema.webp',
+  },
 ]
 
 export default function Events() {
