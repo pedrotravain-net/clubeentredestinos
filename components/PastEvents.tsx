@@ -125,7 +125,7 @@ export default function PastEvents() {
         {/* Números */}
         <div className="grid grid-cols-3 gap-8 max-w-2xl mx-auto text-center border-t border-blush/15 mt-16 pt-14">
           <div>
-            <p className="font-serif text-5xl md:text-6xl text-blush font-semibold mb-2">2</p>
+            <p className="font-serif text-5xl md:text-6xl text-blush font-semibold mb-2">4</p>
             <p className="font-sans text-xs tracking-[0.25em] uppercase text-cream/40">encontros</p>
           </div>
           <div>
