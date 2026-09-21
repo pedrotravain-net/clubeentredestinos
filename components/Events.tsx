@@ -15,28 +15,6 @@ type Event = {
 
 const events: Event[] = [
   {
-    title: 'Piquenique Literário',
-    theme: 'Medo e Coragem',
-    date: '23 ou 30 de agosto',
-    weekday: 'Domingo',
-    time: '8h30 às 10h30',
-    location: 'Parque das Nações Indígenas',
-    desc: 'Um piquenique com discussão do livro da Tamara Klink sobre medo, coragem, autonomia e travessias.',
-    tag: 'Próximo',
-    image: '/images/evento-livro.png',
-  },
-  {
-    title: 'Pintura em Taça com Degustação de Bombons',
-    theme: 'Um Brinde às Versões que a Viagem Revela',
-    date: '19 de setembro',
-    weekday: 'Sábado',
-    time: '14h às 17h',
-    location: 'Local a confirmar',
-    desc: 'Uma experiência para pintar, brindar e conversar sobre como as viagens transformam nossas versões.',
-    tag: 'Em breve',
-    image: '/images/evento-pintura.png',
-  },
-  {
     title: 'Jantar às Cegas',
     theme: 'Quando os Sentidos Viram Destino',
     date: '16 de outubro',
@@ -44,7 +22,7 @@ const events: Event[] = [
     time: '19h às 22h',
     location: 'Local a confirmar',
     desc: 'Uma noite em que os olhos fecham e tudo o mais se abre: o paladar, a conversa, a presença. Uma viagem sem sair do lugar.',
-    tag: 'Em breve',
+    tag: 'Próximo',
     image: '/images/evento-jantar.png',
   },
   {
