@@ -50,7 +50,7 @@ const events: Event[] = [
   {
     title: 'Cineminha com Journaling',
     theme: 'Grandes Planos, Boas Histórias',
-    date: '24 de janeiro',
+    date: '24 de janeiro de 2027',
     weekday: 'Domingo',
     time: 'Final da tarde',
     location: 'Local a confirmar',
@@ -61,7 +61,7 @@ const events: Event[] = [
   {
     title: 'Macramê com Cuscuz',
     theme: 'Nós que Amarram Boas Histórias',
-    date: '21 de fevereiro',
+    date: '21 de fevereiro de 2027',
     weekday: 'Domingo',
     time: 'Manhã',
     location: 'Bem Te Vi',
@@ -72,7 +72,7 @@ const events: Event[] = [
   {
     title: 'Scrapbooking com Chá das 16h',
     theme: 'Pequenos Registros, Grandes Histórias',
-    date: '20 de março',
+    date: '20 de março de 2027',
     weekday: 'Sábado',
     time: 'Tarde',
     location: 'Local a confirmar',
@@ -83,7 +83,7 @@ const events: Event[] = [
   {
     title: 'Sabonete com Gelato',
     theme: 'A Vida é Mais Doce Junto',
-    date: '11 de abril',
+    date: '11 de abril de 2027',
     weekday: 'Domingo',
     time: 'Tarde',
     location: 'Sésamo',
@@ -94,7 +94,7 @@ const events: Event[] = [
   {
     title: 'Cerâmica Fria no Happy Hour',
     theme: 'Arte, Amizade e Novos Destinos',
-    date: '22 de maio',
+    date: '22 de maio de 2027',
     weekday: 'Sábado',
     time: 'À tarde',
     location: 'Jardim Secreto',
@@ -105,7 +105,7 @@ const events: Event[] = [
   {
     title: 'Wellness Day',
     theme: 'Especial 1 Ano do Clube Entre Destinos',
-    date: '20 de junho',
+    date: '20 de junho de 2027',
     weekday: 'Domingo',
     time: 'A confirmar',
     location: 'Local a confirmar',
