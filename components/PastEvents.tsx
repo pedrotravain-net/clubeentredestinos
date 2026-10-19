@@ -8,6 +8,7 @@ const pastEvents = [
     date: '21 de junho de 2026',
     location: 'My Yoga House',
     photos: [
+      { src: '/images/yoga-capa.jpg',   alt: 'Pose de yoga com taça de vinho' },
       { src: '/images/yoga-grupo.jpg',  alt: 'Grupo de mulheres no Yoga com Vinho' },
       { src: '/images/yoga-pose.jpg',   alt: 'Yoga com equilíbrio e vinho' },
       { src: '/images/yoga-mesa.jpg',   alt: 'Mesa de petiscos do encontro' },
@@ -21,6 +22,7 @@ const pastEvents = [
       { src: '/images/aquarela-cafe-1.jpg', alt: 'Grupo do Café com Aquarela' },
       { src: '/images/aquarela-cafe-2.jpg', alt: 'Café com Aquarela — momento de criação' },
       { src: '/images/aquarela-cafe-3.jpg', alt: 'Café com Aquarela — obras finais' },
+      { src: '/images/aquarela-cafe-4.jpg', alt: 'Aquarela de balões inspirada na viagem dos sonhos' },
     ],
   },
   {
@@ -28,6 +30,7 @@ const pastEvents = [
     date: '30 de agosto de 2026',
     location: 'Parque das Nações Indígenas',
     photos: [
+      { src: '/images/piquenique-capa.jpg', alt: 'Leitura no Piquenique Literário' },
       { src: '/images/piquenique-1.jpg', alt: 'Grupo do Piquenique Literário com os livros' },
       { src: '/images/piquenique-2.jpg', alt: 'Encontro à beira do lago no Piquenique Literário' },
       { src: '/images/piquenique-3.jpg', alt: 'Piquenique Literário — boas-vindas Entre Destinos' },
@@ -38,6 +41,7 @@ const pastEvents = [
     date: '19 de setembro de 2026',
     location: 'Campo Grande',
     photos: [
+      { src: '/images/taca-capa.jpg', alt: 'Pintando a taça no encontro' },
       { src: '/images/taca-1.jpg', alt: 'Grupo brindando na Pintura em Taça' },
       { src: '/images/taca-2.jpg', alt: 'Pintura em Taça — leitura e degustação de bombons' },
       { src: '/images/taca-3.jpg', alt: 'Taça pintada à mão no encontro' },
@@ -48,9 +52,9 @@ const pastEvents = [
     date: '16 de outubro de 2026',
     location: 'Campo Grande',
     photos: [
+      { src: '/images/jantar-2.jpg', alt: 'Degustação de vinho às cegas no Jantar às Cegas' },
       { src: '/images/jantar-3.jpg', alt: 'Grupo do Jantar às Cegas' },
       { src: '/images/jantar-1.jpg', alt: 'Degustação às cegas no jantar' },
-      { src: '/images/jantar-2.jpg', alt: 'Brinde às cegas no Jantar às Cegas' },
       { src: '/images/jantar-4.jpg', alt: 'Mesa do Jantar às Cegas com as participantes' },
     ],
   },
