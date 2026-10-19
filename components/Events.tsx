@@ -15,17 +15,6 @@ type Event = {
 
 const events: Event[] = [
   {
-    title: 'Jantar às Cegas',
-    theme: 'Quando os Sentidos Viram Destino',
-    date: '16 de outubro',
-    weekday: 'Sexta-feira',
-    time: '19h às 22h',
-    location: 'Local a confirmar',
-    desc: 'Uma noite em que os olhos fecham e tudo o mais se abre: o paladar, a conversa, a presença. Uma viagem sem sair do lugar.',
-    tag: 'Próximo',
-    image: '/images/evento-jantar.png',
-  },
-  {
     title: 'Bordado e Cookies',
     theme: 'Memórias que vivemos, memórias que queremos criar.',
     date: '28 de novembro',
@@ -33,7 +22,7 @@ const events: Event[] = [
     time: '14h às 17h',
     location: 'Fava Fava',
     desc: 'Uma experiência de bordado com cookies. Teremos a opção de bordar em foto ou bordar no tecido com moldura de acrílico.',
-    tag: 'Em breve',
+    tag: 'Próximo',
     image: '/images/evento-bordado.png',
   },
   {

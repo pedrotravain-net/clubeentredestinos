@@ -43,6 +43,17 @@ const pastEvents = [
       { src: '/images/taca-3.jpg', alt: 'Taça pintada à mão no encontro' },
     ],
   },
+  {
+    title: 'Jantar às Cegas',
+    date: '16 de outubro de 2026',
+    location: 'Campo Grande',
+    photos: [
+      { src: '/images/jantar-3.jpg', alt: 'Grupo do Jantar às Cegas' },
+      { src: '/images/jantar-1.jpg', alt: 'Degustação às cegas no jantar' },
+      { src: '/images/jantar-2.jpg', alt: 'Brinde às cegas no Jantar às Cegas' },
+      { src: '/images/jantar-4.jpg', alt: 'Mesa do Jantar às Cegas com as participantes' },
+    ],
+  },
 ]
 
 function EventGallery({ event }: { event: typeof pastEvents[0] }) {
@@ -145,7 +156,7 @@ export default function PastEvents() {
         {/* Números */}
         <div className="grid grid-cols-3 gap-8 max-w-2xl mx-auto text-center border-t border-blush/15 mt-16 pt-14">
           <div>
-            <p className="font-serif text-5xl md:text-6xl text-blush font-semibold mb-2">4</p>
+            <p className="font-serif text-5xl md:text-6xl text-blush font-semibold mb-2">5</p>
             <p className="font-sans text-xs tracking-[0.25em] uppercase text-cream/40">encontros</p>
           </div>
           <div>
